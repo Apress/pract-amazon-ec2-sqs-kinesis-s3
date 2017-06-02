@@ -1,0 +1,50 @@
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building KinesisConsumer Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ KinesisConsumer ---
+[INFO] Deleting \aws-case-study\KinesisConsumer\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ KinesisConsumer ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory \aws-case-study\KinesisConsumer\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ KinesisConsumer ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to \aws-case-study\KinesisConsumer\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ KinesisConsumer ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory \aws-case-study\KinesisConsumer\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ KinesisConsumer ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ KinesisConsumer ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ KinesisConsumer ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [KinesisConsumer] in [\aws-case-study\KinesisConsumer\target\KinesisConsumer]
+[INFO] Processing war project
+[INFO] Copying webapp resources [\aws-case-study\KinesisConsumer\src\main\webapp]
+[INFO] Webapp assembled in [1063 msecs]
+[INFO] Building war: \aws-case-study\KinesisConsumer\target\KinesisConsumer.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ KinesisConsumer ---
+[INFO] Installing \aws-case-study\KinesisConsumer\target\KinesisConsumer.war to \\.m2\repository\com\sunil\gulabani\chapter6\
+KinesisConsumer\1.0-SNAPSHOT\KinesisConsumer-1.0-SNAPSHOT.war
+[INFO] Installing \aws-case-study\KinesisConsumer\pom.xml to \\.m2\repository\com\sunil\gulabani\chapter6\KinesisConsumer\1.0
+-SNAPSHOT\KinesisConsumer-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.065 s
+[INFO] Finished at: 2017-03-11T13:20:35+05:30
+[INFO] Final Memory: 19M/189M
+[INFO] ------------------------------------------------------------------------
+
